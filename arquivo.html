@@ -1,0 +1,133 @@
+<!-- Desenvolvido por Érika Carneiro -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <form action="arquivo3.html" method="POST">
+    <title>CRUD - Clientes</title>
+    <style>
+        /* Estilo geral do corpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        /* Contêiner principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Cabeçalho */
+        .header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centraliza o título */
+            position: relative;
+        }
+
+        /* Logo */
+        .logo {
+            background-color: #b71c1c;
+            padding: 10px;
+            margin-right: 20px;
+            position: absolute;
+            left: 10px; /* Posiciona a logo à esquerda */
+        }
+
+        /* Título */
+        h1 {
+            margin: 0;
+        }
+
+        /* Conteúdo principal */
+        .main-content {
+            padding: 20px;
+        }
+
+        /* Botão de criar */
+        .create-button {
+            background-color: #d32f2f;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        /* Efeito hover no botão */
+        .create-button:hover {
+            background-color: #b71c1c;
+        }
+
+        /* Tabela de clientes */
+        .client-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Estilo das células da tabela */
+        .client-table th, .client-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        /* Cabeçalho da tabela */
+        .client-table th {
+            background-color: #d32f2f;
+            color: white;
+        }
+
+        /* Linhas pares da tabela */
+        .client-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Rodapé */
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d32f2f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">IN</div>
+            <h1>CRUD - Clientes</h1>
+        </header>
+        <main class="main-content">
+            <button class="create-button">Cadastrar Cliente</button>
+            <table class="client-table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Celular</th>
+                        <th>Cidade</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linhas de dados dos clientes iriam aqui -->
+                </tbody>
+            </table>
+        </main>
+        <!-- Rodapé com o nome -->
+        <footer class="footer">
+            Desenvolvido por Érika Lopes
+        </footer>
+    </div>
+</body>
+</html>
